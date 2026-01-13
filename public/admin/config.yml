@@ -1,10 +1,9 @@
 backend:
   name: github
-  repo: Spr-Aachen/Twilight # 请替换为您的 GitHub 仓库
-  branch: main # 请替换为您的分支名称
-  site_domain: twilight.spr-aachen.com # 请替换为您的域名
-  base_url: https://twilight.spr-aachen.com  # 请替换为您的 URL
-  auth_endpoint: oauth # OAuth 路由由集成提供
+  repo: Judarin15/Portafolio
+  branch: main
+  base_url: https://tekvio-repo-01.netlify.app
+  auth_endpoint: oauth
 
 # 媒体文件配置
 media_folder: "public/images" # 媒体文件存储路径
