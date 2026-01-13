@@ -7,6 +7,7 @@ import swup from "@swup/astro";
 import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
 import cloudflarePages from "@astrojs/cloudflare";
+import netlify from "@astrojs/netlify";
 import decapCmsOauth from "astro-decap-cms-oauth";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
@@ -33,7 +34,11 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 // Choose adapter depending on deployment environment
-const adapter = process.env.CF_PAGES ? cloudflarePages() : vercel({ mode: "serverless" });
+const adapter = process.env.CF_PAGES
+    ? cloudflarePages()
+    : process.env.NETLIFY
+        ? netlify()
+        : vercel({ mode: "serverless" });
 
 export default defineConfig({
     site: siteConfig.siteURL,
@@ -43,7 +48,7 @@ export default defineConfig({
     integrations: [
         decapCmsOauth({
             decapCMSVersion: "3.3.3",
-            oauthDisabled: false, // Disable it to use oauth, requires .env configuration
+            oauthDisabled: true, // Temporarily disabled - enable after configuring OAuth env vars
         }),
         tailwind({
             nesting: true,
