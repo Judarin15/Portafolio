@@ -1,0 +1,101 @@
+---
+import { Icon } from "astro-icon/components";
+import { SITE_LANG, SITE_LANGS, t } from "@/config";
+import { LANGUAGE_CONFIG } from "@i18n/language";
+
+// Español vive en "/" y cada idioma en "/<código>/"
+const languages = SITE_LANGS.map((code) => ({
+    code,
+    name: LANGUAGE_CONFIG[code].displayName,
+}));
+---
+<div class="relative" id="language-switch-wrapper">
+    <button
+        type="button"
+        id="language-switch"
+        aria-label={t("Cambiar idioma", "Change language")}
+        title={t("Cambiar idioma", "Change language")}
+        aria-haspopup="true"
+        aria-expanded="false"
+        class="btn-plain scale-animation rounded-lg h-11 px-2 active:scale-90 flex items-center justify-center gap-1 font-bold text-sm"
+    >
+        <Icon name="material-symbols:translate" class="text-[1.25rem]" />
+        <span>{SITE_LANG.toUpperCase()}</span>
+    </button>
+    <div
+        id="language-panel"
+        class="language-panel-closed absolute top-[3.5rem] right-0 z-50 w-48 bg-[var(--float-panel-bg)] rounded-[var(--radius-large)] shadow-lg border border-[var(--line-divider)] p-2"
+    >
+        {languages.map((lang) => (
+            <a
+                href={lang.code === "es" ? "/" : `/${lang.code}/`}
+                data-lang={lang.code}
+                data-no-swup
+                lang={lang.code}
+                class:list={[
+                    "language-option btn-plain flex items-center justify-between rounded-lg px-3 py-2 text-sm w-full",
+                    { "current-theme-btn": lang.code === SITE_LANG },
+                ]}
+            >
+                <span>{lang.name}</span>
+                {lang.code === SITE_LANG && <span aria-hidden="true">✓</span>}
+            </a>
+        ))}
+    </div>
+</div>
+<style>
+    .language-panel-closed {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-0.25rem);
+    }
+    #language-panel {
+        transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+</style>
+<script is:inline define:vars={{ current: SITE_LANG, langs: SITE_LANGS, isDev: import.meta.env.DEV }}>
+    (function () {
+        if (window.__languageSwitchReady) return;
+        window.__languageSwitchReady = true;
+
+        // Quita el prefijo del idioma actual para obtener la ruta "neutra" de la página
+        function neutralPath() {
+            var path = window.location.pathname;
+            for (var i = 0; i < langs.length; i++) {
+                var code = langs[i];
+                if (code === "es") continue;
+                if (path === "/" + code || path.indexOf("/" + code + "/") === 0) {
+                    return path.slice(code.length + 1) || "/";
+                }
+            }
+            return path;
+        }
+
+        document.addEventListener("click", function (event) {
+            var panel = document.getElementById("language-panel");
+            var button = event.target.closest && event.target.closest("#language-switch");
+            var option = event.target.closest && event.target.closest(".language-option");
+            if (button && panel) {
+                var closed = panel.classList.toggle("language-panel-closed");
+                button.setAttribute("aria-expanded", closed ? "false" : "true");
+                return;
+            }
+            if (option) {
+                event.preventDefault();
+                var code = option.dataset.lang;
+                // "astro dev" solo sirve el idioma actual; los demás existen tras compilar
+                if (isDev && code !== current) {
+                    alert("En modo desarrollo solo existe el idioma \"" + current + "\".\nPara probar todos los idiomas ejecuta: pnpm run preview:all");
+                    return;
+                }
+                var path = neutralPath();
+                var next = code === "es" ? path : "/" + code + path;
+                window.location.href = next + window.location.search + window.location.hash;
+                return;
+            }
+            if (panel && !event.target.closest("#language-switch-wrapper")) {
+                panel.classList.add("language-panel-closed");
+            }
+        });
+    })();
+</script>

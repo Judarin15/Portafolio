@@ -1,0 +1,52 @@
+{
+    "name": "Git y GitHub",
+    "description": "Control de versiones y trabajo con repositorios.",
+    "icon": "logos:git-icon",
+    "category": "tools",
+    "level": "intermediate",
+    "experience": {
+        "years": 2,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket"
+    ],
+    "color": "#F05032",
+    "en": {
+        "name": "Git and GitHub",
+        "description": "Version control and repository workflows."
+    },
+    "fr": {
+        "name": "Git et GitHub",
+        "description": "Gestion de versions et travail avec des dépôts."
+    },
+    "de": {
+        "name": "Git und GitHub",
+        "description": "Versionskontrolle und Arbeit mit Repositories."
+    },
+    "ru": {
+        "name": "Git и GitHub",
+        "description": "Контроль версий и работа с репозиториями."
+    },
+    "zh": {
+        "name": "Git 和 GitHub",
+        "description": "版本控制和代码仓库协作。"
+    },
+    "ja": {
+        "name": "Git と GitHub",
+        "description": "バージョン管理とリポジトリ運用。"
+    },
+    "ko": {
+        "name": "Git과 GitHub",
+        "description": "버전 관리와 저장소 협업."
+    },
+    "tr": {
+        "name": "Git ve GitHub",
+        "description": "Sürüm kontrolü ve depolarla çalışma."
+    },
+    "id": {
+        "name": "Git dan GitHub",
+        "description": "Kontrol versi dan kerja dengan repositori."
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "title": "Grado como Tecnólogo en Análisis y Desarrollo de Software",
+    "description": "Título otorgado por el SENA.",
+    "type": "achievement",
+    "startDate": "2026-08-23",
+    "endDate": "2026-08-23",
+    "organization": "SENA",
+    "icon": "material-symbols:workspace-premium",
+    "color": "#F59E0B",
+    "featured": true,
+    "en": {
+        "title": "Graduated as Technologist in Software Analysis and Development",
+        "description": "Degree awarded by SENA."
+    },
+    "fr": {
+        "title": "Diplômé technologue en analyse et développement de logiciels",
+        "description": "Diplôme délivré par le SENA."
+    },
+    "de": {
+        "title": "Abschluss als Technologe für Softwareanalyse und -entwicklung",
+        "description": "Vom SENA verliehener Abschluss."
+    },
+    "ru": {
+        "title": "Получил диплом технолога по анализу и разработке ПО",
+        "description": "Диплом выдан SENA."
+    },
+    "zh": {
+        "title": "获得软件分析与开发技术员学位",
+        "description": "由 SENA 颁发。"
+    },
+    "ja": {
+        "title": "ソフトウェア分析・開発テクノロジストの学位を取得",
+        "description": "SENA より授与。"
+    },
+    "ko": {
+        "title": "소프트웨어 분석 및 개발 테크놀로지스트 학위 취득",
+        "description": "SENA에서 수여한 학위입니다."
+    },
+    "tr": {
+        "title": "Yazılım Analizi ve Geliştirme Teknoloğu olarak mezuniyet",
+        "description": "SENA tarafından verilen unvan."
+    },
+    "id": {
+        "title": "Lulus sebagai Teknolog Analisis dan Pengembangan Perangkat Lunak",
+        "description": "Gelar diberikan oleh SENA."
+    }
+}

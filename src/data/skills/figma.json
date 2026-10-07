@@ -1,0 +1,42 @@
+{
+    "name": "Figma",
+    "description": "Diseño de interfaces y prototipos antes de programar.",
+    "icon": "logos:figma",
+    "category": "tools",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "techmarket"
+    ],
+    "color": "#F24E1E",
+    "en": {
+        "description": "Interface design and prototypes before coding."
+    },
+    "fr": {
+        "description": "Conception d'interfaces et de prototypes avant de coder."
+    },
+    "de": {
+        "description": "Gestaltung von Oberflächen und Prototypen vor dem Programmieren."
+    },
+    "ru": {
+        "description": "Проектирование интерфейсов и прототипов до написания кода."
+    },
+    "zh": {
+        "description": "在编码前设计界面和原型。"
+    },
+    "ja": {
+        "description": "コーディング前の UI 設計とプロトタイプ作成。"
+    },
+    "ko": {
+        "description": "코딩 전에 UI와 프로토타입을 설계합니다."
+    },
+    "tr": {
+        "description": "Kodlamadan önce arayüz ve prototip tasarımı."
+    },
+    "id": {
+        "description": "Merancang antarmuka dan prototipe sebelum menulis kode."
+    }
+}

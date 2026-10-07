@@ -1,0 +1,56 @@
+{
+    "title": "TechMarket — Tienda en línea de tecnología",
+    "description": "E-commerce de electrónica y gaming con catálogo filtrable, buscador, carrito y checkout con validación de stock, registro e inicio de sesión, historial de pedidos y panel administrativo de productos, pedidos, cupones y banners. Interfaz diseñada en Figma y diseño responsive.",
+    "image": "/assets/projects/techmarket/inicio.webp",
+    "category": "website",
+    "techStack": [
+        "React",
+        "Vite",
+        "Supabase",
+        "Figma"
+    ],
+    "status": "in-progress",
+    "sourceCode": "https://github.com/Judarin15/TechMarket",
+    "startDate": "2026-09-01",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+        "E-commerce"
+    ],
+    "en": {
+        "title": "TechMarket — Online Tech Store",
+        "description": "E-commerce site for electronics and gaming with a filterable catalog, search, cart and checkout with stock validation, sign-up and login, order history, and an admin panel for products, orders, coupons, and banners. Interface designed in Figma, fully responsive."
+    },
+    "fr": {
+        "title": "TechMarket — Boutique en ligne de technologie",
+        "description": "Site e-commerce d'électronique et de jeux vidéo avec catalogue filtrable, recherche, panier et paiement avec contrôle du stock, inscription et connexion, historique des commandes et panneau d'administration des produits, commandes, coupons et bannières. Interface conçue sur Figma, entièrement responsive."
+    },
+    "de": {
+        "title": "TechMarket — Onlineshop für Technik",
+        "description": "Onlineshop für Elektronik und Gaming mit filterbarem Katalog, Suche, Warenkorb und Checkout mit Lagerprüfung, Registrierung und Login, Bestellhistorie sowie Admin-Panel für Produkte, Bestellungen, Gutscheine und Banner. Oberfläche in Figma gestaltet, vollständig responsiv."
+    },
+    "ru": {
+        "title": "TechMarket — интернет-магазин техники",
+        "description": "Интернет-магазин электроники и игровых товаров: каталог с фильтрами, поиск, корзина и оформление заказа с проверкой наличия, регистрация и вход, история заказов и панель администратора для товаров, заказов, купонов и баннеров. Интерфейс спроектирован в Figma и полностью адаптивен."
+    },
+    "zh": {
+        "title": "TechMarket — 科技产品网店",
+        "description": "电子产品与游戏周边电商网站：可筛选的商品目录、搜索、购物车和带库存校验的结账、注册与登录、订单记录，以及管理商品、订单、优惠券和横幅的后台。界面在 Figma 中设计，全站响应式。"
+    },
+    "ja": {
+        "title": "TechMarket — テック製品のオンラインストア",
+        "description": "家電・ゲーム関連のオンラインストア。絞り込み可能な商品カタログ、検索、在庫チェック付きのカートと購入手続き、会員登録とログイン、注文履歴、商品・注文・クーポン・バナーを管理する管理画面を備えています。UI は Figma で設計し、すべての画面がレスポンシブです。"
+    },
+    "ko": {
+        "title": "TechMarket — IT 제품 온라인 쇼핑몰",
+        "description": "전자제품과 게임 용품을 파는 온라인 쇼핑몰입니다. 필터가 있는 상품 목록, 검색, 재고 확인이 되는 장바구니와 결제, 회원가입과 로그인, 주문 내역, 상품·주문·쿠폰·배너를 관리하는 관리자 화면을 제공합니다. Figma로 UI를 설계했고 모든 화면이 반응형입니다."
+    },
+    "tr": {
+        "title": "TechMarket — Teknoloji ürünleri mağazası",
+        "description": "Elektronik ve oyun ürünleri için e-ticaret sitesi: filtrelenebilir katalog, arama, stok kontrollü sepet ve ödeme, kayıt ve giriş, sipariş geçmişi ile ürünleri, siparişleri, kuponları ve afişleri yöneten bir yönetim paneli. Arayüz Figma'da tasarlandı ve tamamen duyarlıdır."
+    },
+    "id": {
+        "title": "TechMarket — Toko online produk teknologi",
+        "description": "Situs e-commerce elektronik dan gaming dengan katalog yang bisa difilter, pencarian, keranjang dan checkout dengan pengecekan stok, daftar dan login, riwayat pesanan, serta panel admin untuk produk, pesanan, kupon, dan banner. Antarmuka dirancang di Figma dan sepenuhnya responsif."
+    }
+}

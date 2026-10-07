@@ -1,0 +1,42 @@
+{
+    "name": "Supabase",
+    "description": "Backend con PostgreSQL, autenticación y API para aplicaciones web.",
+    "icon": "logos:supabase-icon",
+    "category": "backend",
+    "level": "beginner",
+    "experience": {
+        "years": 0,
+        "months": 4
+    },
+    "projects": [
+        "techmarket"
+    ],
+    "color": "#3ECF8E",
+    "en": {
+        "description": "PostgreSQL backend with authentication and an API for web applications."
+    },
+    "fr": {
+        "description": "Backend PostgreSQL avec authentification et API pour les applications web."
+    },
+    "de": {
+        "description": "PostgreSQL-Backend mit Authentifizierung und API für Webanwendungen."
+    },
+    "ru": {
+        "description": "Бэкенд на PostgreSQL с авторизацией и API для веб-приложений."
+    },
+    "zh": {
+        "description": "基于 PostgreSQL 的后端，提供认证和 API。"
+    },
+    "ja": {
+        "description": "認証と API を備えた PostgreSQL ベースのバックエンド。"
+    },
+    "ko": {
+        "description": "인증과 API를 갖춘 PostgreSQL 기반 백엔드."
+    },
+    "tr": {
+        "description": "Kimlik doğrulama ve API sunan PostgreSQL tabanlı backend."
+    },
+    "id": {
+        "description": "Backend berbasis PostgreSQL dengan autentikasi dan API."
+    }
+}

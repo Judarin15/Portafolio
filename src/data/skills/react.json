@@ -1,0 +1,43 @@
+{
+    "name": "React",
+    "description": "Construcción de interfaces por componentes, hooks y manejo de estado.",
+    "icon": "logos:react",
+    "category": "frontend",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 6
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket"
+    ],
+    "color": "#61DAFB",
+    "en": {
+        "description": "Component-based interfaces, hooks, and state management."
+    },
+    "fr": {
+        "description": "Interfaces par composants, hooks et gestion de l'état."
+    },
+    "de": {
+        "description": "Komponentenbasierte Oberflächen, Hooks und State-Management."
+    },
+    "ru": {
+        "description": "Компонентные интерфейсы, хуки и управление состоянием."
+    },
+    "zh": {
+        "description": "组件化界面、Hooks 和状态管理。"
+    },
+    "ja": {
+        "description": "コンポーネント設計、Hooks、状態管理。"
+    },
+    "ko": {
+        "description": "컴포넌트 기반 UI, Hooks, 상태 관리."
+    },
+    "tr": {
+        "description": "Bileşen tabanlı arayüzler, hook'lar ve durum yönetimi."
+    },
+    "id": {
+        "description": "Antarmuka berbasis komponen, hooks, dan manajemen state."
+    }
+}

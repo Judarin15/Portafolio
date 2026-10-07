@@ -1,0 +1,42 @@
+{
+    "name": "Google Apps Script",
+    "description": "Automatización e integración con Google Drive y Google Sheets.",
+    "icon": "logos:google-icon",
+    "category": "backend",
+    "level": "intermediate",
+    "experience": {
+        "years": 0,
+        "months": 7
+    },
+    "projects": [
+        "intranet-comfaoriente"
+    ],
+    "color": "#4285F4",
+    "en": {
+        "description": "Automation and integration with Google Drive and Google Sheets."
+    },
+    "fr": {
+        "description": "Automatisation et intégration avec Google Drive et Google Sheets."
+    },
+    "de": {
+        "description": "Automatisierung und Integration mit Google Drive und Google Sheets."
+    },
+    "ru": {
+        "description": "Автоматизация и интеграция с Google Drive и Google Sheets."
+    },
+    "zh": {
+        "description": "与 Google Drive、Google Sheets 的自动化和集成。"
+    },
+    "ja": {
+        "description": "Google Drive・Google スプレッドシートとの連携と自動化。"
+    },
+    "ko": {
+        "description": "Google Drive, Google 스프레드시트와의 연동 및 자동화."
+    },
+    "tr": {
+        "description": "Google Drive ve Google E-Tablolar ile otomasyon ve entegrasyon."
+    },
+    "id": {
+        "description": "Otomatisasi dan integrasi dengan Google Drive dan Google Sheets."
+    }
+}

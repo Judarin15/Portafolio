@@ -1,0 +1,42 @@
+{
+    "name": "Firebase",
+    "description": "Authentication con Google, base de datos Firestore y despliegue en Firebase Hosting.",
+    "icon": "logos:firebase",
+    "category": "backend",
+    "level": "intermediate",
+    "experience": {
+        "years": 0,
+        "months": 9
+    },
+    "projects": [
+        "intranet-comfaoriente"
+    ],
+    "color": "#FFCA28",
+    "en": {
+        "description": "Authentication with Google, Firestore database, and Firebase Hosting deployment."
+    },
+    "fr": {
+        "description": "Authentification Google, base de données Firestore et déploiement sur Firebase Hosting."
+    },
+    "de": {
+        "description": "Google-Authentifizierung, Firestore-Datenbank und Deployment mit Firebase Hosting."
+    },
+    "ru": {
+        "description": "Авторизация через Google, база данных Firestore и публикация на Firebase Hosting."
+    },
+    "zh": {
+        "description": "Google 登录认证、Firestore 数据库和 Firebase Hosting 部署。"
+    },
+    "ja": {
+        "description": "Google 認証、Firestore データベース、Firebase Hosting へのデプロイ。"
+    },
+    "ko": {
+        "description": "Google 인증, Firestore 데이터베이스, Firebase Hosting 배포."
+    },
+    "tr": {
+        "description": "Google ile kimlik doğrulama, Firestore veritabanı ve Firebase Hosting ile yayınlama."
+    },
+    "id": {
+        "description": "Autentikasi Google, basis data Firestore, dan deploy ke Firebase Hosting."
+    }
+}

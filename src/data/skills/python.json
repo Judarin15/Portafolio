@@ -1,0 +1,42 @@
+{
+    "name": "Python",
+    "description": "Scripts de análisis y procesamiento de datos.",
+    "icon": "logos:python",
+    "category": "backend",
+    "level": "beginner",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente"
+    ],
+    "color": "#3776AB",
+    "en": {
+        "description": "Scripts for data analysis and processing."
+    },
+    "fr": {
+        "description": "Scripts d'analyse et de traitement de données."
+    },
+    "de": {
+        "description": "Skripte zur Datenanalyse und -verarbeitung."
+    },
+    "ru": {
+        "description": "Скрипты для анализа и обработки данных."
+    },
+    "zh": {
+        "description": "数据分析和数据处理脚本。"
+    },
+    "ja": {
+        "description": "データ分析・データ処理のスクリプト。"
+    },
+    "ko": {
+        "description": "데이터 분석과 처리를 위한 스크립트."
+    },
+    "tr": {
+        "description": "Veri analizi ve işleme betikleri."
+    },
+    "id": {
+        "description": "Skrip untuk analisis dan pengolahan data."
+    }
+}

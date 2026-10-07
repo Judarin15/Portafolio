@@ -1,0 +1,44 @@
+{
+    "name": "JavaScript",
+    "description": "Lenguaje principal para el desarrollo frontend y la lógica de mis aplicaciones web.",
+    "icon": "logos:javascript",
+    "category": "frontend",
+    "level": "intermediate",
+    "experience": {
+        "years": 2,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket",
+        "galaxia-sonora"
+    ],
+    "color": "#F7DF1E",
+    "en": {
+        "description": "Main language for frontend development and the logic of my web applications."
+    },
+    "fr": {
+        "description": "Langage principal pour le frontend et la logique de mes applications web."
+    },
+    "de": {
+        "description": "Hauptsprache für das Frontend und die Logik meiner Webanwendungen."
+    },
+    "ru": {
+        "description": "Основной язык для фронтенда и логики моих веб-приложений."
+    },
+    "zh": {
+        "description": "前端开发和 Web 应用逻辑的主要语言。"
+    },
+    "ja": {
+        "description": "フロントエンドと Web アプリのロジックで主に使う言語。"
+    },
+    "ko": {
+        "description": "프론트엔드와 웹 애플리케이션 로직에 주로 사용하는 언어입니다."
+    },
+    "tr": {
+        "description": "Frontend ve web uygulamalarımın mantığı için ana dilim."
+    },
+    "id": {
+        "description": "Bahasa utama untuk frontend dan logika aplikasi web saya."
+    }
+}

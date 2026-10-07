@@ -1,0 +1,42 @@
+{
+    "name": "PostgreSQL",
+    "description": "Bases de datos relacionales y consultas SQL.",
+    "icon": "logos:postgresql",
+    "category": "database",
+    "level": "beginner",
+    "experience": {
+        "years": 0,
+        "months": 6
+    },
+    "projects": [
+        "techmarket"
+    ],
+    "color": "#4169E1",
+    "en": {
+        "description": "Relational databases and SQL queries."
+    },
+    "fr": {
+        "description": "Bases de données relationnelles et requêtes SQL."
+    },
+    "de": {
+        "description": "Relationale Datenbanken und SQL-Abfragen."
+    },
+    "ru": {
+        "description": "Реляционные базы данных и SQL-запросы."
+    },
+    "zh": {
+        "description": "关系型数据库和 SQL 查询。"
+    },
+    "ja": {
+        "description": "リレーショナルデータベースと SQL クエリ。"
+    },
+    "ko": {
+        "description": "관계형 데이터베이스와 SQL 쿼리."
+    },
+    "tr": {
+        "description": "İlişkisel veritabanları ve SQL sorguları."
+    },
+    "id": {
+        "description": "Basis data relasional dan kueri SQL."
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "title": "Técnico en Programación de Software",
+    "description": "Formación técnica del SENA en programación de software.",
+    "type": "education",
+    "startDate": "2020-01-01",
+    "endDate": "2020-12-01",
+    "organization": "SENA",
+    "icon": "material-symbols:school",
+    "color": "#16A34A",
+    "en": {
+        "title": "Technician in Software Programming",
+        "description": "SENA technical program in software programming."
+    },
+    "fr": {
+        "title": "Technicien en programmation de logiciels",
+        "description": "Formation technique du SENA en programmation."
+    },
+    "de": {
+        "title": "Techniker für Softwareprogrammierung",
+        "description": "Technische Ausbildung des SENA in Softwareprogrammierung."
+    },
+    "ru": {
+        "title": "Техник по программированию",
+        "description": "Техническая программа SENA по программированию."
+    },
+    "zh": {
+        "title": "软件编程技术员",
+        "description": "SENA 软件编程技术课程。"
+    },
+    "ja": {
+        "title": "ソフトウェアプログラミング技術者",
+        "description": "SENA のプログラミング技術課程。"
+    },
+    "ko": {
+        "title": "소프트웨어 프로그래밍 기술자",
+        "description": "SENA 소프트웨어 프로그래밍 기술 과정."
+    },
+    "tr": {
+        "title": "Yazılım Programlama Teknisyeni",
+        "description": "SENA'nın yazılım programlama teknik programı."
+    },
+    "id": {
+        "title": "Teknisi Pemrograman Perangkat Lunak",
+        "description": "Program teknis SENA di bidang pemrograman."
+    }
+}

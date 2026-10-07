@@ -1,0 +1,53 @@
+{
+    "name": "HTML y CSS",
+    "description": "Maquetación semántica y diseño responsive.",
+    "icon": "logos:html-5",
+    "category": "frontend",
+    "level": "advanced",
+    "experience": {
+        "years": 2,
+        "months": 6
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket",
+        "galaxia-sonora"
+    ],
+    "color": "#E34F26",
+    "en": {
+        "name": "HTML and CSS",
+        "description": "Semantic markup and responsive design."
+    },
+    "fr": {
+        "name": "HTML et CSS",
+        "description": "Balisage sémantique et design responsive."
+    },
+    "de": {
+        "name": "HTML und CSS",
+        "description": "Semantisches Markup und responsives Design."
+    },
+    "ru": {
+        "name": "HTML и CSS",
+        "description": "Семантическая вёрстка и адаптивный дизайн."
+    },
+    "zh": {
+        "name": "HTML 和 CSS",
+        "description": "语义化页面结构和响应式设计。"
+    },
+    "ja": {
+        "name": "HTML と CSS",
+        "description": "セマンティックなマークアップとレスポンシブデザイン。"
+    },
+    "ko": {
+        "name": "HTML과 CSS",
+        "description": "시맨틱 마크업과 반응형 디자인."
+    },
+    "tr": {
+        "name": "HTML ve CSS",
+        "description": "Anlamsal işaretleme ve duyarlı tasarım."
+    },
+    "id": {
+        "name": "HTML dan CSS",
+        "description": "Markup semantik dan desain responsif."
+    }
+}

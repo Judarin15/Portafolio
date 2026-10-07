@@ -1,0 +1,9 @@
+name = "portafolio-cms-oauth"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# URL del portafolio en Firebase (sin / al final)
+ALLOWED_ORIGIN = "https://portafolio-de-proyectos-julian.web.app"
+GITHUB_CLIENT_ID = "PEGA_AQUI_TU_CLIENT_ID"
+# GITHUB_CLIENT_SECRET se configura como secreto: npx wrangler secret put GITHUB_CLIENT_SECRET

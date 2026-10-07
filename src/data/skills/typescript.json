@@ -1,0 +1,42 @@
+{
+    "name": "TypeScript",
+    "description": "Tipado estático para aplicaciones React más seguras y mantenibles.",
+    "icon": "logos:typescript-icon",
+    "category": "frontend",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente"
+    ],
+    "color": "#3178C6",
+    "en": {
+        "description": "Static typing for safer, more maintainable React applications."
+    },
+    "fr": {
+        "description": "Typage statique pour des applications React plus sûres et plus faciles à maintenir."
+    },
+    "de": {
+        "description": "Statische Typisierung für sicherere, besser wartbare React-Anwendungen."
+    },
+    "ru": {
+        "description": "Статическая типизация для более надёжных и поддерживаемых приложений на React."
+    },
+    "zh": {
+        "description": "静态类型，让 React 应用更安全、更易维护。"
+    },
+    "ja": {
+        "description": "静的型付けで、安全で保守しやすい React アプリを作ります。"
+    },
+    "ko": {
+        "description": "정적 타입으로 더 안전하고 유지보수하기 쉬운 React 앱을 만듭니다."
+    },
+    "tr": {
+        "description": "Daha güvenli ve bakımı kolay React uygulamaları için statik tipler."
+    },
+    "id": {
+        "description": "Tipe statis untuk aplikasi React yang lebih aman dan mudah dirawat."
+    }
+}

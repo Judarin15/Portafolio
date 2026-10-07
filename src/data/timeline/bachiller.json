@@ -1,0 +1,47 @@
+{
+    "title": "Bachiller Técnico con especialidad en Programación de Software",
+    "description": "Bachillerato técnico con énfasis en programación.",
+    "type": "education",
+    "startDate": "2020-01-01",
+    "endDate": "2020-12-01",
+    "location": "Cúcuta, Norte de Santander",
+    "organization": "Instituto Salesiano San Juan Bosco",
+    "icon": "material-symbols:school",
+    "color": "#16A34A",
+    "en": {
+        "title": "Technical High School Diploma, Software Programming",
+        "description": "Technical high school with a focus on programming."
+    },
+    "fr": {
+        "title": "Baccalauréat technique, spécialité programmation",
+        "description": "Lycée technique avec une spécialité en programmation."
+    },
+    "de": {
+        "title": "Technisches Abitur mit Schwerpunkt Programmierung",
+        "description": "Technische Oberschule mit Schwerpunkt Programmierung."
+    },
+    "ru": {
+        "title": "Аттестат технической школы, профиль «Программирование»",
+        "description": "Техническая средняя школа с профилем по программированию."
+    },
+    "zh": {
+        "title": "技术高中毕业（软件编程方向）",
+        "description": "以编程为专业方向的技术高中。"
+    },
+    "ja": {
+        "title": "技術系高校卒業（プログラミング専攻）",
+        "description": "プログラミングを専攻する技術系高校。"
+    },
+    "ko": {
+        "title": "기술계 고등학교 졸업(프로그래밍 전공)",
+        "description": "프로그래밍을 전공으로 하는 기술계 고등학교."
+    },
+    "tr": {
+        "title": "Teknik lise diploması (Programlama)",
+        "description": "Programlama alanında teknik lise."
+    },
+    "id": {
+        "title": "Ijazah SMK, jurusan Pemrograman",
+        "description": "Sekolah menengah kejuruan dengan jurusan pemrograman."
+    }
+}

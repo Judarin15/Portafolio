@@ -1,0 +1,40 @@
+{
+    "name": "Next.js",
+    "description": "Aplicaciones React con App Router y renderizado en servidor.",
+    "icon": "logos:nextjs-icon",
+    "category": "frontend",
+    "level": "beginner",
+    "experience": {
+        "years": 0,
+        "months": 8
+    },
+    "projects": [],
+    "color": "#888888",
+    "en": {
+        "description": "React applications with the App Router and server rendering."
+    },
+    "fr": {
+        "description": "Applications React avec l'App Router et le rendu côté serveur."
+    },
+    "de": {
+        "description": "React-Anwendungen mit App Router und serverseitigem Rendering."
+    },
+    "ru": {
+        "description": "Приложения на React с App Router и серверным рендерингом."
+    },
+    "zh": {
+        "description": "使用 App Router 和服务端渲染的 React 应用。"
+    },
+    "ja": {
+        "description": "App Router とサーバーサイドレンダリングを使った React アプリ。"
+    },
+    "ko": {
+        "description": "App Router와 서버 사이드 렌더링을 사용하는 React 앱."
+    },
+    "tr": {
+        "description": "App Router ve sunucu tarafı render kullanan React uygulamaları."
+    },
+    "id": {
+        "description": "Aplikasi React dengan App Router dan server-side rendering."
+    }
+}

@@ -1,0 +1,1375 @@
+# Configuración de Decap CMS — panel en /admin/
+# Guía de activación: cms-oauth/README.md
+
+backend:
+  name: github
+  repo: Judarin15/Portafolio
+  branch: main
+  # URL del Worker de Cloudflare que hace el inicio de sesión con GitHub (ver cms-oauth/README.md)
+  base_url: https://portafolio-cms-oauth.TU-SUBDOMINIO.workers.dev
+  auth_endpoint: auth
+  commit_messages:
+    create: "Crear {{collection}} «{{slug}}»"
+    update: "Actualizar {{collection}} «{{slug}}»"
+    delete: "Eliminar {{collection}} «{{slug}}»"
+    uploadMedia: "Subir «{{path}}»"
+    deleteMedia: "Eliminar «{{path}}»"
+
+# Permite editar en tu computador sin iniciar sesión: ejecuta `npx decap-server` junto a `pnpm dev`
+local_backend: true
+
+locale: es
+
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+- name: posts
+  label: Publicaciones
+  label_singular: Publicación
+  folder: src/content/posts
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Proyectos
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-en
+  label: Publicaciones (inglés)
+  label_singular: Publicación en inglés
+  folder: src/content/posts-en
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Projects
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-fr
+  label: Publicaciones (francés)
+  label_singular: Publicación en francés
+  folder: src/content/posts-fr
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Projets
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-de
+  label: Publicaciones (alemán)
+  label_singular: Publicación en alemán
+  folder: src/content/posts-de
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Projekte
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-ru
+  label: Publicaciones (ruso)
+  label_singular: Publicación en ruso
+  folder: src/content/posts-ru
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Проекты
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-zh
+  label: Publicaciones (chino)
+  label_singular: Publicación en chino
+  folder: src/content/posts-zh
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: 项目
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-ja
+  label: Publicaciones (japonés)
+  label_singular: Publicación en japonés
+  folder: src/content/posts-ja
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: プロジェクト
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-ko
+  label: Publicaciones (coreano)
+  label_singular: Publicación en coreano
+  folder: src/content/posts-ko
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: 프로젝트
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-tr
+  label: Publicaciones (turco)
+  label_singular: Publicación en turco
+  folder: src/content/posts-tr
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Projeler
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: posts-id
+  label: Publicaciones (indonesio)
+  label_singular: Publicación en indonesio
+  folder: src/content/posts-id
+  create: true
+  slug: '{{slug}}'
+  summary: '{{title}} — {{published}}'
+  sortable_fields:
+  - published
+  - title
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Fecha de publicación
+    name: published
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de actualización
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+  - label: Descripción corta
+    name: description
+    widget: text
+    required: false
+  - label: Imagen de portada
+    name: cover
+    widget: image
+    required: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    default: []
+    required: false
+  - label: Categoría
+    name: category
+    widget: string
+    default: Proyek
+    required: false
+  - label: Fijar arriba
+    name: pinned
+    widget: boolean
+    default: false
+    required: false
+  - label: Borrador (no se publica)
+    name: draft
+    widget: boolean
+    default: false
+  - label: Contenido
+    name: body
+    widget: markdown
+- name: projects
+  label: Proyectos
+  label_singular: Proyecto
+  folder: src/data/projects
+  create: true
+  slug: '{{slug}}'
+  format: json
+  extension: json
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Descripción
+    name: description
+    widget: text
+  - label: Imagen
+    name: image
+    widget: image
+    required: false
+  - label: Categoría
+    name: category
+    widget: select
+    default: website
+    options:
+    - label: Web
+      value: website
+    - label: Software
+      value: software
+    - label: IA
+      value: ai
+    - label: Librería
+      value: library
+    - label: Juego
+      value: game
+  - label: Tecnologías
+    name: techStack
+    widget: list
+    default: []
+  - label: Estado
+    name: status
+    widget: select
+    options:
+    - label: Completado
+      value: completed
+    - label: En desarrollo
+      value: in-progress
+    - label: Planeado
+      value: planned
+  - label: Enlace al sitio
+    name: liveDemo
+    widget: string
+    required: false
+  - label: Enlace al código (GitHub)
+    name: sourceCode
+    widget: string
+    required: false
+  - label: Fecha de inicio
+    name: startDate
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de fin (vacío si sigue en curso)
+    name: endDate
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+    default: ''
+  - label: Destacado
+    name: featured
+    widget: boolean
+    required: false
+    default: false
+  - label: Etiquetas
+    name: tags
+    widget: list
+    required: false
+    default: []
+  - label: Versión en inglés (opcional)
+    name: en
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en francés (opcional)
+    name: fr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en alemán (opcional)
+    name: de
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en ruso (opcional)
+    name: ru
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en chino (opcional)
+    name: zh
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en japonés (opcional)
+    name: ja
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en coreano (opcional)
+    name: ko
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en turco (opcional)
+    name: tr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en indonesio (opcional)
+    name: id
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+- name: skills
+  label: Habilidades
+  label_singular: Habilidad
+  folder: src/data/skills
+  create: true
+  slug: '{{slug}}'
+  format: json
+  extension: json
+  fields:
+  - label: Nombre
+    name: name
+    widget: string
+  - label: Descripción
+    name: description
+    widget: text
+  - label: Ícono (nombre de Iconify, ej. logos:react)
+    name: icon
+    widget: string
+  - label: Categoría
+    name: category
+    widget: select
+    options:
+    - label: Frontend
+      value: frontend
+    - label: Backend
+      value: backend
+    - label: Bases de datos
+      value: database
+    - label: Inteligencia artificial
+      value: ai
+    - label: Herramientas
+      value: tools
+    - label: Otros
+      value: others
+  - label: Nivel
+    name: level
+    widget: select
+    options:
+    - label: Básico
+      value: beginner
+    - label: Intermedio
+      value: intermediate
+    - label: Avanzado
+      value: advanced
+    - label: Experto
+      value: expert
+  - label: Experiencia
+    name: experience
+    widget: object
+    fields:
+    - label: Años
+      name: years
+      widget: number
+      value_type: int
+      min: 0
+      default: 0
+    - label: Meses
+      name: months
+      widget: number
+      value_type: int
+      min: 0
+      max: 11
+      default: 0
+  - label: Proyectos relacionados (nombre del archivo, ej. techmarket)
+    name: projects
+    widget: list
+    required: false
+    default: []
+  - label: Certificaciones
+    name: certifications
+    widget: list
+    required: false
+    default: []
+  - label: 'Color (hex, ej. #61DAFB)'
+    name: color
+    widget: string
+    required: false
+  - label: Versión en inglés (opcional)
+    name: en
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en francés (opcional)
+    name: fr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en alemán (opcional)
+    name: de
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en ruso (opcional)
+    name: ru
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en chino (opcional)
+    name: zh
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en japonés (opcional)
+    name: ja
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en coreano (opcional)
+    name: ko
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en turco (opcional)
+    name: tr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+  - label: Versión en indonesio (opcional)
+    name: id
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+- name: timeline
+  label: Trayectoria
+  label_singular: Elemento de trayectoria
+  folder: src/data/timeline
+  create: true
+  slug: '{{slug}}'
+  format: json
+  extension: json
+  fields:
+  - label: Título
+    name: title
+    widget: string
+  - label: Descripción
+    name: description
+    widget: text
+  - label: Tipo
+    name: type
+    widget: select
+    options:
+    - label: Educación
+      value: education
+    - label: Experiencia laboral
+      value: work
+    - label: Proyecto
+      value: project
+    - label: Logro
+      value: achievement
+  - label: Fecha de inicio
+    name: startDate
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+  - label: Fecha de fin (vacío = actual)
+    name: endDate
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    required: false
+    default: ''
+  - label: Ubicación
+    name: location
+    widget: string
+    required: false
+  - label: Organización
+    name: organization
+    widget: string
+    required: false
+  - label: Cargo
+    name: position
+    widget: string
+    required: false
+  - label: Habilidades
+    name: skills
+    widget: list
+    required: false
+    default: []
+  - label: Logros
+    name: achievements
+    widget: list
+    required: false
+    default: []
+  - label: Enlaces
+    name: links
+    widget: list
+    required: false
+    fields:
+    - label: Nombre
+      name: name
+      widget: string
+    - label: URL
+      name: url
+      widget: string
+    - label: Tipo
+      name: type
+      widget: select
+      options:
+      - label: Certificado
+        value: certificate
+      - label: Proyecto
+        value: project
+      - label: Otro
+        value: other
+  - label: Ícono (Iconify)
+    name: icon
+    widget: string
+    required: false
+  - label: Color (hex)
+    name: color
+    widget: string
+    required: false
+  - label: Destacado
+    name: featured
+    widget: boolean
+    required: false
+    default: false
+  - label: Versión en inglés (opcional)
+    name: en
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en francés (opcional)
+    name: fr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en alemán (opcional)
+    name: de
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en ruso (opcional)
+    name: ru
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en chino (opcional)
+    name: zh
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en japonés (opcional)
+    name: ja
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en coreano (opcional)
+    name: ko
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en turco (opcional)
+    name: tr
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+  - label: Versión en indonesio (opcional)
+    name: id
+    widget: object
+    required: false
+    collapsed: true
+    fields:
+    - label: Título
+      name: title
+      widget: string
+      required: false
+    - label: Descripción
+      name: description
+      widget: text
+      required: false
+    - label: Cargo
+      name: position
+      widget: string
+      required: false
+    - label: Organización
+      name: organization
+      widget: string
+      required: false
+- name: pages
+  label: Páginas
+  files:
+  - label: Sobre mí
+    name: about
+    file: src/content/spec/about.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (inglés)
+    name: about-en
+    file: src/content/spec/about-en.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (francés)
+    name: about-fr
+    file: src/content/spec/about-fr.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (alemán)
+    name: about-de
+    file: src/content/spec/about-de.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (ruso)
+    name: about-ru
+    file: src/content/spec/about-ru.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (chino)
+    name: about-zh
+    file: src/content/spec/about-zh.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (japonés)
+    name: about-ja
+    file: src/content/spec/about-ja.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (coreano)
+    name: about-ko
+    file: src/content/spec/about-ko.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (turco)
+    name: about-tr
+    file: src/content/spec/about-tr.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+  - label: Sobre mí (indonesio)
+    name: about-id
+    file: src/content/spec/about-id.md
+    fields:
+    - label: Contenido
+      name: body
+      widget: markdown
+editor:
+  preview: false

@@ -1,0 +1,82 @@
+{
+    "title": "Galaxia Sonora — Audiolibros en español",
+    "description": "Tienda virtual que centraliza la venta de audiolibros en español publicados en Hotmart y Etsy.",
+    "image": "/assets/projects/galaxia-sonora/inicio.webp",
+    "category": "website",
+    "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "status": "completed",
+    "liveDemo": "https://galaxiasonora.com/",
+    "startDate": "2026-07-01",
+    "endDate": "",
+    "featured": false,
+    "tags": [
+        "Proyecto propio"
+    ],
+    "en": {
+        "title": "Galaxia Sonora — Spanish Audiobooks",
+        "description": "Online store that brings together Spanish-language audiobooks sold on Hotmart and Etsy.",
+        "tags": [
+            "Personal project"
+        ]
+    },
+    "fr": {
+        "title": "Galaxia Sonora — Livres audio en espagnol",
+        "description": "Boutique en ligne qui réunit des livres audio en espagnol vendus sur Hotmart et Etsy.",
+        "tags": [
+            "Projet personnel"
+        ]
+    },
+    "de": {
+        "title": "Galaxia Sonora — Hörbücher auf Spanisch",
+        "description": "Onlineshop, der spanischsprachige Hörbücher von Hotmart und Etsy an einem Ort bündelt.",
+        "tags": [
+            "Eigenes Projekt"
+        ]
+    },
+    "ru": {
+        "title": "Galaxia Sonora — аудиокниги на испанском",
+        "description": "Интернет-магазин, который собирает в одном месте испаноязычные аудиокниги из Hotmart и Etsy.",
+        "tags": [
+            "Личный проект"
+        ]
+    },
+    "zh": {
+        "title": "Galaxia Sonora — 西班牙语有声书",
+        "description": "将 Hotmart 和 Etsy 上的西班牙语有声书集中展示的网店。",
+        "tags": [
+            "个人项目"
+        ]
+    },
+    "ja": {
+        "title": "Galaxia Sonora — スペイン語のオーディオブック",
+        "description": "Hotmart と Etsy で販売しているスペイン語のオーディオブックを一か所にまとめたオンラインストア。",
+        "tags": [
+            "個人プロジェクト"
+        ]
+    },
+    "ko": {
+        "title": "Galaxia Sonora — 스페인어 오디오북",
+        "description": "Hotmart와 Etsy에서 판매하는 스페인어 오디오북을 한곳에 모은 온라인 스토어입니다.",
+        "tags": [
+            "개인 프로젝트"
+        ]
+    },
+    "tr": {
+        "title": "Galaxia Sonora — İspanyolca sesli kitaplar",
+        "description": "Hotmart ve Etsy'de satılan İspanyolca sesli kitapları bir araya getiren çevrim içi mağaza.",
+        "tags": [
+            "Kişisel proje"
+        ]
+    },
+    "id": {
+        "title": "Galaxia Sonora — Buku audio berbahasa Spanyol",
+        "description": "Toko online yang mengumpulkan buku audio berbahasa Spanyol yang dijual di Hotmart dan Etsy.",
+        "tags": [
+            "Proyek pribadi"
+        ]
+    }
+}

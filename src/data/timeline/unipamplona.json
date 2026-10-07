@@ -1,0 +1,55 @@
+{
+    "title": "Ingeniería de Sistemas",
+    "description": "Pregrado en curso.",
+    "type": "education",
+    "startDate": "2024-07-01",
+    "endDate": "",
+    "organization": "Universidad de Pamplona",
+    "icon": "material-symbols:school",
+    "color": "#16A34A",
+    "en": {
+        "title": "Systems Engineering",
+        "description": "Undergraduate degree in progress.",
+        "organization": "University of Pamplona"
+    },
+    "fr": {
+        "title": "Ingénierie des systèmes",
+        "description": "Licence en cours.",
+        "organization": "Université de Pamplona"
+    },
+    "de": {
+        "title": "Systemtechnik",
+        "description": "Studium (laufend).",
+        "organization": "Universität Pamplona"
+    },
+    "ru": {
+        "title": "Системная инженерия",
+        "description": "Бакалавриат (обучаюсь сейчас).",
+        "organization": "Университет Памплоны"
+    },
+    "zh": {
+        "title": "系统工程",
+        "description": "本科在读。",
+        "organization": "潘普洛纳大学"
+    },
+    "ja": {
+        "title": "システム工学",
+        "description": "学部在学中。",
+        "organization": "パンプローナ大学"
+    },
+    "ko": {
+        "title": "시스템공학",
+        "description": "학부 재학 중.",
+        "organization": "팜플로나 대학교"
+    },
+    "tr": {
+        "title": "Sistem Mühendisliği",
+        "description": "Lisans eğitimi devam ediyor.",
+        "organization": "Pamplona Üniversitesi"
+    },
+    "id": {
+        "title": "Teknik Sistem",
+        "description": "Program sarjana, sedang berjalan.",
+        "organization": "Universitas Pamplona"
+    }
+}

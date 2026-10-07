@@ -1,0 +1,42 @@
+{
+    "name": "Tailwind CSS",
+    "description": "Estilos utilitarios para interfaces consistentes y rápidas de construir.",
+    "icon": "logos:tailwindcss-icon",
+    "category": "frontend",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente"
+    ],
+    "color": "#38BDF8",
+    "en": {
+        "description": "Utility-first styling for consistent interfaces built quickly."
+    },
+    "fr": {
+        "description": "Styles utilitaires pour des interfaces cohérentes, construites rapidement."
+    },
+    "de": {
+        "description": "Utility-First-Styling für einheitliche, schnell gebaute Oberflächen."
+    },
+    "ru": {
+        "description": "Утилитарные стили для единообразных интерфейсов, которые быстро собираются."
+    },
+    "zh": {
+        "description": "原子化样式，快速构建风格统一的界面。"
+    },
+    "ja": {
+        "description": "ユーティリティファーストで、統一感のある UI を素早く構築します。"
+    },
+    "ko": {
+        "description": "유틸리티 우선 스타일로 일관된 UI를 빠르게 만듭니다."
+    },
+    "tr": {
+        "description": "Tutarlı arayüzleri hızla kurmak için yardımcı sınıf tabanlı stiller."
+    },
+    "id": {
+        "description": "Styling berbasis utilitas untuk antarmuka yang konsisten dan cepat dibuat."
+    }
+}

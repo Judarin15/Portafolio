@@ -1,0 +1,70 @@
+{
+    "title": "Auxiliar de ingeniería",
+    "description": "Elaboración de planos 2D en AutoCAD, corrección de archivos técnicos y organización de la información de los proyectos.",
+    "type": "work",
+    "startDate": "2024-02-01",
+    "endDate": "",
+    "location": "Cúcuta, Norte de Santander",
+    "organization": "Ing. Civil Mauricio Bolívar Cuéllar",
+    "position": "Auxiliar de ingeniería",
+    "skills": [
+        "AutoCAD 2D",
+        "Excel"
+    ],
+    "icon": "material-symbols:architecture",
+    "color": "#64748B",
+    "en": {
+        "title": "Engineering Assistant",
+        "description": "2D drawings in AutoCAD, correction of technical files, and organization of project information.",
+        "position": "Engineering Assistant",
+        "organization": "Civil Engineer Mauricio Bolívar Cuéllar"
+    },
+    "fr": {
+        "title": "Assistant d'ingénierie",
+        "position": "Assistant d'ingénierie",
+        "organization": "Ingénieur civil Mauricio Bolívar Cuéllar",
+        "description": "Plans 2D sur AutoCAD, correction de fichiers techniques et organisation des informations des projets."
+    },
+    "de": {
+        "title": "Ingenieursassistent",
+        "position": "Ingenieursassistent",
+        "organization": "Bauingenieur Mauricio Bolívar Cuéllar",
+        "description": "2D-Pläne in AutoCAD, Korrektur technischer Dateien und Organisation von Projektinformationen."
+    },
+    "ru": {
+        "title": "Помощник инженера",
+        "position": "Помощник инженера",
+        "organization": "Инженер-строитель Маурисио Боливар Куэльяр",
+        "description": "Чертежи 2D в AutoCAD, исправление технических файлов и систематизация данных по проектам."
+    },
+    "zh": {
+        "title": "工程助理",
+        "position": "工程助理",
+        "organization": "土木工程师 Mauricio Bolívar Cuéllar",
+        "description": "使用 AutoCAD 绘制 2D 图纸，修改技术文件并整理项目资料。"
+    },
+    "ja": {
+        "title": "エンジニアリング アシスタント",
+        "position": "エンジニアリング アシスタント",
+        "organization": "土木技師 Mauricio Bolívar Cuéllar",
+        "description": "AutoCAD での 2D 図面作成、技術ファイルの修正、プロジェクト情報の整理。"
+    },
+    "ko": {
+        "title": "엔지니어링 어시스턴트",
+        "position": "엔지니어링 어시스턴트",
+        "organization": "토목 기술자 Mauricio Bolívar Cuéllar",
+        "description": "AutoCAD 2D 도면 작성, 기술 파일 수정, 프로젝트 정보 정리."
+    },
+    "tr": {
+        "title": "Mühendislik Asistanı",
+        "position": "Mühendislik Asistanı",
+        "organization": "İnşaat Mühendisi Mauricio Bolívar Cuéllar",
+        "description": "AutoCAD ile 2D çizimler, teknik dosyaların düzeltilmesi ve proje bilgilerinin düzenlenmesi."
+    },
+    "id": {
+        "title": "Asisten Teknik",
+        "position": "Asisten Teknik",
+        "organization": "Insinyur Sipil Mauricio Bolívar Cuéllar",
+        "description": "Membuat gambar 2D di AutoCAD, memperbaiki berkas teknis, dan merapikan informasi proyek."
+    }
+}

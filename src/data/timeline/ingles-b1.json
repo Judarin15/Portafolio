@@ -1,0 +1,46 @@
+{
+    "title": "Inglés nivel B1",
+    "description": "Niveles A2 y B1, 240 horas, Academia Inglés Para Todos (convenio con la UFPS).",
+    "type": "achievement",
+    "startDate": "2022-12-01",
+    "endDate": "2022-12-01",
+    "organization": "Academia Inglés Para Todos",
+    "icon": "material-symbols:translate",
+    "color": "#F59E0B",
+    "en": {
+        "title": "English, B1 level",
+        "description": "A2 and B1 levels, 240 hours, Academia Inglés Para Todos (agreement with UFPS)."
+    },
+    "fr": {
+        "title": "Anglais, niveau B1",
+        "description": "Niveaux A2 et B1, 240 heures, Academia Inglés Para Todos (convention avec l'UFPS)."
+    },
+    "de": {
+        "title": "Englisch, Niveau B1",
+        "description": "Niveaus A2 und B1, 240 Stunden, Academia Inglés Para Todos (Kooperation mit der UFPS)."
+    },
+    "ru": {
+        "title": "Английский язык, уровень B1",
+        "description": "Уровни A2 и B1, 240 часов, Academia Inglés Para Todos (соглашение с UFPS)."
+    },
+    "zh": {
+        "title": "英语 B1 水平",
+        "description": "A2 和 B1 级别，共 240 学时，Academia Inglés Para Todos（与 UFPS 合作）。"
+    },
+    "ja": {
+        "title": "英語 B1 レベル",
+        "description": "A2・B1 レベル、240 時間、Academia Inglés Para Todos（UFPS と提携）。"
+    },
+    "ko": {
+        "title": "영어 B1 수준",
+        "description": "A2·B1 과정, 240시간, Academia Inglés Para Todos(UFPS 협력)."
+    },
+    "tr": {
+        "title": "İngilizce, B1 seviyesi",
+        "description": "A2 ve B1 seviyeleri, 240 saat, Academia Inglés Para Todos (UFPS ile iş birliği)."
+    },
+    "id": {
+        "title": "Bahasa Inggris, level B1",
+        "description": "Level A2 dan B1, 240 jam, Academia Inglés Para Todos (kerja sama dengan UFPS)."
+    }
+}

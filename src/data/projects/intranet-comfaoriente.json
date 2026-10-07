@@ -1,0 +1,95 @@
+{
+    "title": "Intranet institucional — Gimnasio Campestre Comfaoriente",
+    "description": "Plataforma web en producción que centraliza la información académica y administrativa del colegio: documentos institucionales, planes de área, portafolio de 47 docentes, hojas de vida de 840 estudiantes, calendario y horario académico. Incluye inicio de sesión con Google restringido a cuentas institucionales, roles, panel de administración con monitoreo en tiempo real y un módulo de horarios que importó 882 clases y genera los formatos oficiales en PDF.",
+    "image": "/assets/projects/intranet-horarios.webp",
+    "category": "website",
+    "techStack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Firebase",
+        "Google Apps Script"
+    ],
+    "status": "completed",
+    "sourceCode": "https://github.com/Judarin15/Intranet",
+    "startDate": "2026-01-16",
+    "endDate": "2026-07-14",
+    "featured": true,
+    "tags": [
+        "Práctica profesional",
+        "En producción"
+    ],
+    "en": {
+        "title": "School Intranet — Gimnasio Campestre Comfaoriente",
+        "description": "Production web platform that centralizes the school's academic and administrative information: institutional documents, curriculum plans, portfolios for 47 teachers, records for 840 students, and the academic calendar and timetable. It includes Google sign-in restricted to institutional accounts, user roles, an admin panel with real-time monitoring, and a timetable module that imported 882 classes and generates the official PDF forms.",
+        "tags": [
+            "Internship",
+            "In production"
+        ]
+    },
+    "fr": {
+        "title": "Intranet scolaire — Gimnasio Campestre Comfaoriente",
+        "description": "Plateforme web en production qui centralise les informations pédagogiques et administratives de l'école : documents institutionnels, programmes, portfolios de 47 enseignants, dossiers de 840 élèves, calendrier et emploi du temps. Elle comprend une connexion Google réservée aux comptes de l'établissement, des rôles, un panneau d'administration avec suivi en temps réel et un module d'emploi du temps qui a importé 882 cours et génère les formulaires officiels en PDF.",
+        "tags": [
+            "Stage",
+            "En production"
+        ]
+    },
+    "de": {
+        "title": "Schul-Intranet — Gimnasio Campestre Comfaoriente",
+        "description": "Produktive Webplattform, die die schulischen und administrativen Informationen der Schule bündelt: Schuldokumente, Lehrpläne, Portfolios von 47 Lehrkräften, Akten von 840 Schülerinnen und Schülern, Schulkalender und Stundenplan. Sie bietet eine Google-Anmeldung nur für Schulkonten, Rollen, ein Admin-Panel mit Echtzeit-Monitoring und ein Stundenplanmodul, das 882 Unterrichtsstunden importiert hat und die offiziellen Formulare als PDF erzeugt.",
+        "tags": [
+            "Praktikum",
+            "Im Einsatz"
+        ]
+    },
+    "ru": {
+        "title": "Школьный интранет — Gimnasio Campestre Comfaoriente",
+        "description": "Работающая веб-платформа, которая объединяет учебную и административную информацию школы: официальные документы, учебные планы, портфолио 47 учителей, личные дела 840 учеников, учебный календарь и расписание. В ней есть вход через Google только для школьных аккаунтов, роли пользователей, панель администратора с мониторингом в реальном времени и модуль расписания, который импортировал 882 урока и формирует официальные документы в PDF.",
+        "tags": [
+            "Стажировка",
+            "В эксплуатации"
+        ]
+    },
+    "zh": {
+        "title": "校园内网 — Gimnasio Campestre Comfaoriente",
+        "description": "已上线运行的 Web 平台，集中管理学校的教学和行政信息：学校文件、课程计划、47 名教师的教学档案、840 名学生的学籍档案、校历和课程表。平台支持仅限学校账号的 Google 登录、用户角色、可实时监控的管理后台，以及导入了 882 节课并能生成官方 PDF 表格的课表模块。",
+        "tags": [
+            "实习项目",
+            "已上线"
+        ]
+    },
+    "ja": {
+        "title": "学校イントラネット — Gimnasio Campestre Comfaoriente",
+        "description": "学校の教務・事務情報を一元化する、本番稼働中の Web プラットフォーム。学校文書、教科の指導計画、教員 47 名のポートフォリオ、生徒 840 名の記録、学校行事カレンダー、時間割を管理します。学校アカウント限定の Google ログイン、ユーザー権限、リアルタイム監視付きの管理画面、882 コマを取り込み公式書類を PDF で出力する時間割モジュールを備えています。",
+        "tags": [
+            "インターンシップ",
+            "本番稼働中"
+        ]
+    },
+    "ko": {
+        "title": "학교 인트라넷 — Gimnasio Campestre Comfaoriente",
+        "description": "학교의 학사·행정 정보를 한곳에 모은 운영 중인 웹 플랫폼입니다. 학교 문서, 교과 계획, 교사 47명의 포트폴리오, 학생 840명의 기록, 학사 일정과 시간표를 관리합니다. 학교 계정 전용 Google 로그인, 사용자 권한, 실시간 모니터링이 가능한 관리자 화면, 882개 수업을 가져와 공식 서류를 PDF로 만드는 시간표 모듈을 갖추고 있습니다.",
+        "tags": [
+            "인턴십",
+            "운영 중"
+        ]
+    },
+    "tr": {
+        "title": "Okul İntraneti — Gimnasio Campestre Comfaoriente",
+        "description": "Okulun akademik ve idari bilgilerini tek yerde toplayan, canlıda çalışan web platformu: okul belgeleri, ders planları, 47 öğretmenin portfolyosu, 840 öğrencinin dosyası, akademik takvim ve ders programı. Yalnızca okul hesaplarına açık Google girişi, kullanıcı rolleri, gerçek zamanlı izleme sunan yönetim paneli ve 882 dersi içe aktarıp resmî formları PDF olarak üreten ders programı modülü içerir.",
+        "tags": [
+            "Staj",
+            "Canlıda"
+        ]
+    },
+    "id": {
+        "title": "Intranet Sekolah — Gimnasio Campestre Comfaoriente",
+        "description": "Platform web yang sudah berjalan untuk memusatkan informasi akademik dan administrasi sekolah: dokumen resmi, rencana pembelajaran, portofolio 47 guru, data 840 siswa, kalender akademik, dan jadwal pelajaran. Dilengkapi login Google khusus akun sekolah, peran pengguna, panel admin dengan pemantauan real-time, serta modul jadwal yang mengimpor 882 kelas dan membuat formulir resmi dalam PDF.",
+        "tags": [
+            "Magang",
+            "Sudah berjalan"
+        ]
+    }
+}

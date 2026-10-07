@@ -1,0 +1,43 @@
+{
+    "name": "Vite",
+    "description": "Entorno de desarrollo y empaquetado para proyectos React.",
+    "icon": "logos:vitejs",
+    "category": "tools",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket"
+    ],
+    "color": "#646CFF",
+    "en": {
+        "description": "Development server and bundler for React projects."
+    },
+    "fr": {
+        "description": "Serveur de développement et bundler pour les projets React."
+    },
+    "de": {
+        "description": "Entwicklungsserver und Bundler für React-Projekte."
+    },
+    "ru": {
+        "description": "Сервер разработки и сборщик для проектов на React."
+    },
+    "zh": {
+        "description": "React 项目的开发服务器和打包工具。"
+    },
+    "ja": {
+        "description": "React プロジェクトの開発サーバーとビルドツール。"
+    },
+    "ko": {
+        "description": "React 프로젝트의 개발 서버와 번들러."
+    },
+    "tr": {
+        "description": "React projeleri için geliştirme sunucusu ve paketleyici."
+    },
+    "id": {
+        "description": "Server pengembangan dan bundler untuk proyek React."
+    }
+}

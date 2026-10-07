@@ -1,0 +1,52 @@
+{
+    "name": "Inteligencia artificial",
+    "description": "Uso de modelos de lenguaje (Claude, GPT, Gemini, DeepSeek) y agentes de programación (Claude Code, Codex) para automatizar procesos, procesar datos y optimizar el desarrollo de software.",
+    "icon": "material-symbols:smart-toy",
+    "category": "ai",
+    "level": "intermediate",
+    "experience": {
+        "years": 1,
+        "months": 0
+    },
+    "projects": [
+        "intranet-comfaoriente",
+        "techmarket"
+    ],
+    "color": "#D97757",
+    "en": {
+        "name": "Artificial Intelligence",
+        "description": "Using language models (Claude, GPT, Gemini, DeepSeek) and coding agents (Claude Code, Codex) to automate processes, process data, and speed up software development."
+    },
+    "fr": {
+        "name": "Intelligence artificielle",
+        "description": "Utilisation de modèles de langage (Claude, GPT, Gemini, DeepSeek) et d'agents de programmation (Claude Code, Codex) pour automatiser des processus, traiter des données et accélérer le développement logiciel."
+    },
+    "de": {
+        "name": "Künstliche Intelligenz",
+        "description": "Einsatz von Sprachmodellen (Claude, GPT, Gemini, DeepSeek) und Coding-Agenten (Claude Code, Codex), um Prozesse zu automatisieren, Daten zu verarbeiten und die Softwareentwicklung zu beschleunigen."
+    },
+    "ru": {
+        "name": "Искусственный интеллект",
+        "description": "Использую языковые модели (Claude, GPT, Gemini, DeepSeek) и агентов для программирования (Claude Code, Codex), чтобы автоматизировать процессы, обрабатывать данные и ускорять разработку."
+    },
+    "zh": {
+        "name": "人工智能",
+        "description": "使用大语言模型（Claude、GPT、Gemini、DeepSeek）和编程智能体（Claude Code、Codex）来自动化流程、处理数据并提升软件开发效率。"
+    },
+    "ja": {
+        "name": "人工知能",
+        "description": "大規模言語モデル（Claude、GPT、Gemini、DeepSeek）とコーディングエージェント（Claude Code、Codex）を活用し、業務の自動化、データ処理、開発の効率化を行っています。"
+    },
+    "ko": {
+        "name": "인공지능",
+        "description": "언어 모델(Claude, GPT, Gemini, DeepSeek)과 코딩 에이전트(Claude Code, Codex)를 활용해 업무를 자동화하고, 데이터를 처리하고, 개발 속도를 높입니다."
+    },
+    "tr": {
+        "name": "Yapay zekâ",
+        "description": "Süreçleri otomatikleştirmek, veri işlemek ve yazılım geliştirmeyi hızlandırmak için dil modellerini (Claude, GPT, Gemini, DeepSeek) ve kodlama ajanlarını (Claude Code, Codex) kullanırım."
+    },
+    "id": {
+        "name": "Kecerdasan Buatan",
+        "description": "Menggunakan model bahasa (Claude, GPT, Gemini, DeepSeek) dan agen pemrograman (Claude Code, Codex) untuk mengotomatiskan proses, mengolah data, dan mempercepat pengembangan perangkat lunak."
+    }
+}

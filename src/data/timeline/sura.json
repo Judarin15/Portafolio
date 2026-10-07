@@ -1,0 +1,69 @@
+{
+    "title": "Asistente administrativo y de cartera",
+    "description": "Apoyo en la gestión administrativa y el seguimiento de la cartera de clientes.",
+    "type": "work",
+    "startDate": "2023-01-01",
+    "endDate": "",
+    "location": "Cúcuta, Norte de Santander",
+    "organization": "Álvaro Javier Andrade Durán, asesor de Seguros SURA",
+    "position": "Asistente administrativo y de cartera",
+    "skills": [
+        "Excel"
+    ],
+    "icon": "material-symbols:work",
+    "color": "#64748B",
+    "en": {
+        "title": "Administrative and Collections Assistant",
+        "description": "Administrative support and follow-up on client accounts receivable.",
+        "position": "Administrative and Collections Assistant",
+        "organization": "Álvaro Javier Andrade Durán, SURA insurance advisor"
+    },
+    "fr": {
+        "title": "Assistant administratif et recouvrement",
+        "position": "Assistant administratif et recouvrement",
+        "organization": "Álvaro Javier Andrade Durán, conseiller en assurances SURA",
+        "description": "Soutien administratif et suivi des comptes clients."
+    },
+    "de": {
+        "title": "Verwaltungs- und Forderungsassistent",
+        "position": "Verwaltungs- und Forderungsassistent",
+        "organization": "Álvaro Javier Andrade Durán, Versicherungsberater bei SURA",
+        "description": "Unterstützung in der Verwaltung und Nachverfolgung offener Kundenforderungen."
+    },
+    "ru": {
+        "title": "Помощник по административной работе и взысканию задолженности",
+        "position": "Помощник по административной работе",
+        "organization": "Альваро Хавьер Андраде Дуран, страховой консультант SURA",
+        "description": "Административная поддержка и контроль дебиторской задолженности клиентов."
+    },
+    "zh": {
+        "title": "行政与收款助理",
+        "position": "行政与收款助理",
+        "organization": "Álvaro Javier Andrade Durán，SURA 保险顾问",
+        "description": "协助行政工作并跟进客户应收账款。"
+    },
+    "ja": {
+        "title": "事務・債権管理アシスタント",
+        "position": "事務・債権管理アシスタント",
+        "organization": "Álvaro Javier Andrade Durán（SURA 保険アドバイザー）",
+        "description": "事務作業のサポートと顧客の売掛金のフォローアップ。"
+    },
+    "ko": {
+        "title": "행정 및 채권 관리 어시스턴트",
+        "position": "행정 및 채권 관리 어시스턴트",
+        "organization": "Álvaro Javier Andrade Durán, SURA 보험 상담사",
+        "description": "행정 업무 지원과 고객 미수금 관리."
+    },
+    "tr": {
+        "title": "İdari ve Tahsilat Asistanı",
+        "position": "İdari ve Tahsilat Asistanı",
+        "organization": "Álvaro Javier Andrade Durán, SURA sigorta danışmanı",
+        "description": "İdari işlere destek ve müşteri alacaklarının takibi."
+    },
+    "id": {
+        "title": "Asisten Administrasi dan Penagihan",
+        "position": "Asisten Administrasi dan Penagihan",
+        "organization": "Álvaro Javier Andrade Durán, penasihat asuransi SURA",
+        "description": "Mendukung pekerjaan administrasi dan memantau piutang pelanggan."
+    }
+}

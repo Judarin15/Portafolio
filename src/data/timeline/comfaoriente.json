@@ -1,0 +1,174 @@
+{
+    "title": "Practicante de apoyo de sistemas",
+    "description": "Soporte de sistemas al personal administrativo. Desarrollé y desplegué la intranet institucional del colegio: análisis, desarrollo, despliegue y manual de usuario.",
+    "type": "work",
+    "startDate": "2026-01-16",
+    "endDate": "2026-07-14",
+    "location": "Cúcuta, Norte de Santander",
+    "organization": "Gimnasio Campestre Comfaoriente",
+    "position": "Practicante de apoyo de sistemas",
+    "skills": [
+        "React",
+        "TypeScript",
+        "Firebase",
+        "Google Apps Script"
+    ],
+    "achievements": [
+        "Intranet en producción para rectoría, coordinación y 47 docentes",
+        "Módulo de horarios con 882 clases importadas y generación de formatos en PDF"
+    ],
+    "links": [
+        {
+            "name": "Repositorio de la intranet",
+            "url": "https://github.com/Judarin15/Intranet",
+            "type": "project"
+        }
+    ],
+    "icon": "material-symbols:school",
+    "color": "#2563EB",
+    "featured": true,
+    "en": {
+        "title": "IT Support Intern",
+        "description": "IT support for the school's administrative staff. I built and deployed the school intranet end to end: analysis, development, deployment, and user manual.",
+        "position": "IT Support Intern",
+        "achievements": [
+            "Intranet in production for the principal's office, academic coordination, and 47 teachers",
+            "Timetable module that imported 882 classes and generates official PDF forms"
+        ],
+        "links": [
+            {
+                "name": "Intranet repository",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "fr": {
+        "title": "Stagiaire en support informatique",
+        "position": "Stagiaire en support informatique",
+        "description": "Support informatique pour le personnel administratif de l'école. J'ai développé et déployé l'intranet de l'établissement de bout en bout : analyse, développement, déploiement et manuel d'utilisation.",
+        "achievements": [
+            "Intranet en production pour la direction, la coordination pédagogique et 47 enseignants",
+            "Module d'emploi du temps qui a importé 882 cours et génère les formulaires officiels en PDF"
+        ],
+        "links": [
+            {
+                "name": "Dépôt de l'intranet",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "de": {
+        "title": "Praktikant im IT-Support",
+        "position": "Praktikant im IT-Support",
+        "description": "IT-Support für das Verwaltungspersonal der Schule. Ich habe das Schul-Intranet vollständig entwickelt und bereitgestellt: Analyse, Entwicklung, Deployment und Benutzerhandbuch.",
+        "achievements": [
+            "Intranet im Einsatz für Schulleitung, pädagogische Koordination und 47 Lehrkräfte",
+            "Stundenplanmodul mit 882 importierten Unterrichtsstunden und offiziellen PDF-Formularen"
+        ],
+        "links": [
+            {
+                "name": "Repository des Intranets",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "ru": {
+        "title": "Стажёр технической поддержки",
+        "position": "Стажёр технической поддержки",
+        "description": "Техническая поддержка административного персонала школы. Полностью разработал и запустил школьный интранет: анализ, разработка, развёртывание и руководство пользователя.",
+        "achievements": [
+            "Интранет в эксплуатации для дирекции, учебной части и 47 учителей",
+            "Модуль расписания: импорт 882 уроков и формирование официальных документов в PDF"
+        ],
+        "links": [
+            {
+                "name": "Репозиторий интранета",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "zh": {
+        "title": "IT 支持实习生",
+        "position": "IT 支持实习生",
+        "description": "为学校行政人员提供 IT 支持。独立完成校园内网的分析、开发、部署和用户手册编写。",
+        "achievements": [
+            "内网已上线，供校领导、教务部门和 47 名教师使用",
+            "课表模块导入了 882 节课，并能生成官方 PDF 表格"
+        ],
+        "links": [
+            {
+                "name": "内网代码仓库",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "ja": {
+        "title": "IT サポート インターン",
+        "position": "IT サポート インターン",
+        "description": "学校の事務職員向けの IT サポートを担当。学校イントラネットの分析、開発、デプロイ、ユーザーマニュアル作成までを一貫して行いました。",
+        "achievements": [
+            "校長室、教務、教員 47 名が使うイントラネットを本番稼働",
+            "882 コマを取り込み、公式書類を PDF で出力する時間割モジュール"
+        ],
+        "links": [
+            {
+                "name": "イントラネットのリポジトリ",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "ko": {
+        "title": "IT 지원 인턴",
+        "position": "IT 지원 인턴",
+        "description": "학교 행정 직원을 위한 IT 지원을 맡았습니다. 학교 인트라넷의 분석, 개발, 배포, 사용자 매뉴얼 작성까지 전 과정을 진행했습니다.",
+        "achievements": [
+            "교장실, 교무팀, 교사 47명이 사용하는 인트라넷 운영 중",
+            "882개 수업을 가져오고 공식 서류를 PDF로 만드는 시간표 모듈"
+        ],
+        "links": [
+            {
+                "name": "인트라넷 저장소",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "tr": {
+        "title": "BT Destek Stajyeri",
+        "position": "BT Destek Stajyeri",
+        "description": "Okulun idari personeline BT desteği verdim. Okul intranetini baştan sona geliştirip yayına aldım: analiz, geliştirme, yayınlama ve kullanım kılavuzu.",
+        "achievements": [
+            "Okul yönetimi, akademik koordinasyon ve 47 öğretmen için canlıda çalışan intranet",
+            "882 dersi içe aktaran ve resmî formları PDF olarak üreten ders programı modülü"
+        ],
+        "links": [
+            {
+                "name": "İntranet deposu",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    },
+    "id": {
+        "title": "Magang Dukungan TI",
+        "position": "Magang Dukungan TI",
+        "description": "Memberikan dukungan TI untuk staf administrasi sekolah. Saya membangun dan meluncurkan intranet sekolah dari awal hingga akhir: analisis, pengembangan, deploy, dan panduan pengguna.",
+        "achievements": [
+            "Intranet yang sudah berjalan untuk kepala sekolah, koordinasi akademik, dan 47 guru",
+            "Modul jadwal yang mengimpor 882 kelas dan membuat formulir resmi dalam PDF"
+        ],
+        "links": [
+            {
+                "name": "Repositori intranet",
+                "url": "https://github.com/Judarin15/Intranet",
+                "type": "project"
+            }
+        ]
+    }
+}

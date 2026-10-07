@@ -1,0 +1,57 @@
+{
+    "title": "Tecnólogo en Análisis y Desarrollo de Software",
+    "description": "Formación presencial en levantamiento de requisitos, modelado de datos, desarrollo frontend y backend, pruebas, calidad y despliegue de software. Etapa práctica de 864 horas en el Gimnasio Campestre Comfaoriente.",
+    "type": "education",
+    "startDate": "2024-04-15",
+    "endDate": "2026-07-14",
+    "location": "Cúcuta, Norte de Santander",
+    "organization": "SENA — Centro de la Industria, la Empresa y los Servicios",
+    "icon": "material-symbols:school",
+    "color": "#16A34A",
+    "featured": true,
+    "en": {
+        "title": "Technologist in Software Analysis and Development",
+        "description": "In-person program covering requirements gathering, data modeling, frontend and backend development, testing, quality, and software deployment. 864-hour internship at Gimnasio Campestre Comfaoriente.",
+        "organization": "SENA — Center for Industry, Business and Services"
+    },
+    "fr": {
+        "title": "Technologue en analyse et développement de logiciels",
+        "organization": "SENA — Centre de l'industrie, de l'entreprise et des services",
+        "description": "Formation en présentiel : recueil des besoins, modélisation des données, développement frontend et backend, tests, qualité et déploiement de logiciels. Stage de 864 heures au Gimnasio Campestre Comfaoriente."
+    },
+    "de": {
+        "title": "Technologe für Softwareanalyse und -entwicklung",
+        "organization": "SENA — Zentrum für Industrie, Unternehmen und Dienstleistungen",
+        "description": "Präsenzausbildung in Anforderungsanalyse, Datenmodellierung, Frontend- und Backend-Entwicklung, Tests, Qualitätssicherung und Software-Deployment. Praktikum mit 864 Stunden am Gimnasio Campestre Comfaoriente."
+    },
+    "ru": {
+        "title": "Технолог по анализу и разработке программного обеспечения",
+        "organization": "SENA — Центр промышленности, бизнеса и услуг",
+        "description": "Очное обучение: сбор требований, моделирование данных, фронтенд и бэкенд, тестирование, контроль качества и развёртывание ПО. Стажировка 864 часа в Gimnasio Campestre Comfaoriente."
+    },
+    "zh": {
+        "title": "软件分析与开发技术员",
+        "organization": "SENA — 工业、企业与服务中心",
+        "description": "线下课程，内容包括需求分析、数据建模、前后端开发、测试、质量保证和软件部署。在 Gimnasio Campestre Comfaoriente 完成 864 小时实习。"
+    },
+    "ja": {
+        "title": "ソフトウェア分析・開発テクノロジスト",
+        "organization": "SENA — 産業・企業・サービスセンター",
+        "description": "対面式の課程で、要件定義、データモデリング、フロントエンド・バックエンド開発、テスト、品質管理、デプロイを学びました。Gimnasio Campestre Comfaoriente で 864 時間のインターンシップを実施。"
+    },
+    "ko": {
+        "title": "소프트웨어 분석 및 개발 테크놀로지스트",
+        "organization": "SENA — 산업·기업·서비스 센터",
+        "description": "요구사항 분석, 데이터 모델링, 프론트엔드·백엔드 개발, 테스트, 품질 관리, 소프트웨어 배포를 배우는 대면 과정. Gimnasio Campestre Comfaoriente에서 864시간 인턴십을 했습니다."
+    },
+    "tr": {
+        "title": "Yazılım Analizi ve Geliştirme Teknoloğu",
+        "organization": "SENA — Sanayi, İşletme ve Hizmetler Merkezi",
+        "description": "Gereksinim analizi, veri modelleme, frontend ve backend geliştirme, test, kalite ve yazılım yayınlama üzerine yüz yüze eğitim. Gimnasio Campestre Comfaoriente'de 864 saatlik staj."
+    },
+    "id": {
+        "title": "Teknolog Analisis dan Pengembangan Perangkat Lunak",
+        "organization": "SENA — Pusat Industri, Bisnis, dan Jasa",
+        "description": "Program tatap muka tentang analisis kebutuhan, pemodelan data, pengembangan frontend dan backend, pengujian, kualitas, dan deploy perangkat lunak. Magang 864 jam di Gimnasio Campestre Comfaoriente."
+    }
+}
